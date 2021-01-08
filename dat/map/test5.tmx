@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="33" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="55" nextobjectid="92">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="82" source="roadset.tsx"/>
+ <tileset firstgid="163" source="crystalsheet.tsx"/>
+ <tileset firstgid="263" source="chambertileset.tsx"/>
+ <tileset firstgid="344" source="carpetrunner.tsx"/>
+ <layer id="45" name="floor1" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,0,
+0,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,0,
+0,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,0,
+0,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,0,
+0,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,0,
+0,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,303,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="46" name="floor2" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,76,76,76,76,76,76,76,67,76,76,76,67,76,76,76,67,76,76,76,67,76,76,76,67,76,76,76,76,76,76,76,0,
+0,0,0,0,0,0,0,75,76,77,0,75,76,77,0,75,76,77,0,75,76,77,0,75,76,77,0,0,0,0,0,0,0,
+0,83,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,345,0,
+0,0,0,0,0,0,0,57,58,59,0,57,58,59,0,57,58,59,0,57,58,59,0,57,58,59,0,0,0,0,0,0,0,
+0,58,58,58,58,58,58,58,67,58,58,58,67,58,58,58,67,58,58,58,67,58,58,58,67,58,58,58,58,58,58,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="47" name="floor3" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,12,0,0,0,12,0,0,0,12,0,0,0,12,0,0,0,12,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,12,0,0,0,12,0,0,0,12,0,0,0,12,0,0,0,12,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,66,0,68,0,66,0,68,0,66,0,68,0,66,0,68,0,66,0,68,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,66,0,68,0,66,0,68,0,66,0,68,0,66,0,68,0,66,0,68,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="48" name="wall1" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,283,12,0,
+0,12,283,283,283,265,265,283,283,283,281,283,283,283,281,283,283,283,281,283,283,283,281,283,283,283,265,283,265,283,283,12,0,
+0,12,283,265,283,283,265,283,266,283,290,283,266,283,290,283,266,283,290,283,266,283,290,283,266,283,283,283,265,265,283,12,0,
+0,22,292,292,292,292,292,292,266,292,292,292,266,292,292,292,266,292,292,292,266,292,292,292,266,283,292,292,292,292,292,22,0,
+0,0,0,305,0,307,305,306,0,305,306,307,0,307,305,306,0,306,307,305,0,305,306,307,0,306,307,0,305,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="49" name="wall2" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,224,0,0,0,204,0,0,0,224,0,0,0,204,0,0,0,224,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,234,0,0,0,214,0,0,0,234,0,0,0,214,0,0,0,234,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,15,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,15,0,
+0,0,0,0,0,0,0,0,64,0,0,0,64,0,0,0,64,0,0,0,64,0,0,0,64,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="50" name="wall3" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,276,277,278,0,276,277,278,0,276,277,278,0,276,277,278,0,276,277,278,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,279,0,280,0,279,0,280,0,279,0,280,0,279,0,280,0,279,0,280,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,279,55,280,0,279,55,280,0,279,55,280,0,279,55,280,0,279,55,280,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="51" name="wall4" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,296,0,298,296,297,0,296,297,298,0,298,296,297,0,297,298,296,0,296,297,298,0,297,298,0,296,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="52" name="ceiling1" width="33" height="14">
+  <data encoding="csv">
+72,277,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277,0,72,
+72,14,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,286,14,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,
+72,0,0,0,324,323,325,0,56,324,325,323,56,324,325,0,56,324,325,0,56,325,323,324,56,0,323,325,324,323,0,0,72,
+72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,
+72,0,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72
+</data>
+ </layer>
+ <layer id="53" name="ceiling2" width="33" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,
+0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,277,277,277,277,277,277,167,168,163,277,277,187,188,277,163,167,168,277,183,187,188,277,167,168,163,277,277,277,277,277,277,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="54" name="ceiling3" width="33" height="14">
+  <data encoding="csv">
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,33,0,0,0,33,0,0,0,33,0,0,0,33,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,42,0,0,0,42,0,0,0,42,0,0,0,42,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,41,0,0,0,41,0,0,0,41,0,0,0,41,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,41,0,0,0,41,0,0,0,41,0,0,0,41,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,51,0,0,0,51,0,0,0,51,0,0,0,51,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,277,277,277,0,0,277,277,0,277,277,277,0,277,277,277,0,277,277,277,0,0,0,0,54,72,0,
+0,72,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0,
+0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,72,0
+</data>
+ </layer>
+ <objectgroup id="37" name="blockall" visible="0">
+  <object id="1" x="31.8417" y="89.2705" width="992.21" height="125.945"/>
+  <object id="2" x="32.4103" y="384.091" width="991.926" height="70.7909"/>
+  <object id="3" x="19.6168" y="189.344" width="13.6464" height="197.589"/>
+  <object id="4" x="1021.78" y="216.353" width="7.96043" height="169.728"/>
+ </objectgroup>
+ <objectgroup id="38" name="bg" visible="0">
+  <object id="5" x="199.106" y="138.893" width="18.7331" height="42.8185"/>
+  <object id="6" x="328.097" y="137.287" width="15.5217" height="43.6214"/>
+  <object id="7" x="452.538" y="138.893" width="22.7473" height="43.3538"/>
+  <object id="8" x="583.402" y="140.231" width="19.2683" height="36.3958"/>
+  <object id="9" x="711.59" y="139.428" width="18.4655" height="36.3958"/>
+  <object id="10" x="837.37" y="138.893" width="21.1416" height="37.1986"/>
+ </objectgroup>
+ <objectgroup id="39" name="light">
+  <object id="11" x="272.572" y="117.488">
+   <properties>
+    <property name="blue" type="float" value="0.029999999999999999"/>
+    <property name="green" type="float" value="0.12"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="12" x="272.572" y="361.276">
+   <properties>
+    <property name="blue" type="float" value="0.029999999999999999"/>
+    <property name="green" type="float" value="0.12"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" x="785.995" y="119.838">
+   <properties>
+    <property name="blue" type="float" value="0.029999999999999999"/>
+    <property name="green" type="float" value="0.12"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="14" x="783.832" y="362.317">
+   <properties>
+    <property name="blue" type="float" value="0.029999999999999999"/>
+    <property name="green" type="float" value="0.12"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="15" x="656.171" y="119.838">
+   <properties>
+    <property name="blue" type="float" value="0.16"/>
+    <property name="green" type="float" value="0.16"/>
+    <property name="lightlevel" type="float" value="9"/>
+    <property name="red" type="float" value="0.070000000000000007"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="16" x="655.677" y="361.45">
+   <properties>
+    <property name="blue" type="float" value="0.16"/>
+    <property name="green" type="float" value="0.16"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.050000000000000003"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" x="336.377" y="194.46">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" x="335.943" y="256.396">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" x="336.202" y="225.174">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="60" x="335.881" y="287.264">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="61" x="336.45" y="163.951">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="62" x="465.104" y="193.683">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="63" x="464.67" y="255.619">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="64" x="464.929" y="224.397">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="65" x="464.608" y="286.487">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" x="465.177" y="163.174">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="67" x="592.276" y="194.46">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="68" x="591.842" y="256.396">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="69" x="592.101" y="225.174">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="70" x="591.78" y="287.264">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="71" x="592.349" y="163.951">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="72" x="720.484" y="194.719">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="73" x="720.05" y="256.655">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="74" x="720.309" y="225.433">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="75" x="719.988" y="287.523">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="76" x="720.557" y="164.21">
+   <properties>
+    <property name="blue" type="float" value="0.29999999999999999"/>
+    <property name="green" type="float" value="0"/>
+    <property name="lightlevel" type="float" value="20"/>
+    <property name="red" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="87" x="527.891" y="360.581">
+   <properties>
+    <property name="blue" type="float" value="0.029999999999999999"/>
+    <property name="green" type="float" value="0.12"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="89" x="527.53" y="120.795">
+   <properties>
+    <property name="blue" type="float" value="0.029999999999999999"/>
+    <property name="green" type="float" value="0.12"/>
+    <property name="lightlevel" type="float" value="7"/>
+    <property name="red" type="float" value="0.12"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="90" x="413.779" y="375.429">
+   <properties>
+    <property name="blue" type="float" value="0.16"/>
+    <property name="green" type="float" value="0.16"/>
+    <property name="lightlevel" type="float" value="9"/>
+    <property name="red" type="float" value="0.070000000000000007"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="91" x="400.996" y="117.069">
+   <properties>
+    <property name="blue" type="float" value="0.16"/>
+    <property name="green" type="float" value="0.16"/>
+    <property name="lightlevel" type="float" value="9"/>
+    <property name="red" type="float" value="0.070000000000000007"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="40" name="mapinfo">
+  <object id="21" name="spawn" x="127.901" y="280.688">
+   <point/>
+  </object>
+  <object id="48" name="tran1" type="transition" x="976.297" y="212.323" width="48.8036" height="174.177">
+   <properties>
+    <property name="drop" value="tran1"/>
+    <property name="dx" type="float" value="-49"/>
+    <property name="dy" type="float" value="0"/>
+    <property name="map" value="test9"/>
+   </properties>
+  </object>
+  <object id="49" name="tran2" type="transition" x="28.8135" y="213.369" width="48.8036" height="174.177">
+   <properties>
+    <property name="drop" value="tran1"/>
+    <property name="dx" type="float" value="49"/>
+    <property name="dy" type="float" value="0"/>
+    <property name="map" value="test6"/>
+   </properties>
+  </object>
+  <object id="50" name="birthchamber" type="world" x="19.9398" y="-24.823">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="42" name="blockmove" visible="0"/>
+ <objectgroup id="43" name="enemy">
+  <object id="51" name="birthchamber-1-1" type="lostsword" x="459.836" y="233.173">
+   <properties>
+    <property name="dir" value="north"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" name="birthchamber-1-2" type="lostspear" x="369.198" y="353.946">
+   <properties>
+    <property name="dir" value="east"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" name="birthchamber-1-3" type="lostsword" x="648.821" y="249.695">
+   <properties>
+    <property name="dir" value="north"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="birthchamber-1-4" type="lostspear" x="680.314" y="230.413">
+   <properties>
+    <property name="dir" value="west"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" name="birthchamber-1-5" type="lostsword" x="805.964" y="347.709">
+   <properties>
+    <property name="dir" value="south"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
